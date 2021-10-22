@@ -9,8 +9,14 @@ element.addEventListener ( 'click',
     }
 )
 
-element_2.addEventListener ( 'click',
+/* element_2.addEventListener ( 'click',
     function() {
         element_1.className = "hamburger-menu"
+    }
+) */
+
+element_2.addEventListener ( 'click',
+    function() {
+        element_1.classList.remove("active")
     }
 )
